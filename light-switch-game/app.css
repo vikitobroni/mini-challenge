@@ -1,0 +1,43 @@
+body {
+    background-color: #121212;
+    color: #ffffff;
+  }
+  .container {
+    margin-top: 50px;
+  }
+  .game-box {
+    border: 1px solid #333;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: #1e1e1e;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    text-align: center;
+  }
+  .lamp {
+    display: block;
+    margin: 20px auto;
+    width: 200px;
+    height: 200px;
+    background: url("/light-switch-game/img/lamp.png") no-repeat center;
+    background-size: contain;
+    transition: filter 0.3s ease;
+  }
+  .lamp.on {
+    filter: brightness(1.5);
+  }
+  .lamp.off {
+    filter: brightness(0.3);
+  }
+  .switch {
+    cursor: pointer;
+    display: inline-block;
+    margin-top: 20px;
+    width: 60px;
+    height: 60px;
+    background: url("/light-switch-game/img/on.png") no-repeat center;
+    background-size: contain;
+    transition: transform 0.2s ease;
+  }
+  .switch.active {
+    transform: scale(1.1);
+  }
