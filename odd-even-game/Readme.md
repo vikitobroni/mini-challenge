@@ -64,7 +64,3 @@ To experience the game, simply open the `index.html` file in your favorite web b
 ## License
 
 This project is licensed under the MIT License. Feel free to use and modify it.
-
----
-
-Enjoy the game! 🎮
